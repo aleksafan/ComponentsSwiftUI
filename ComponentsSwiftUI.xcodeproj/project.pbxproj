@@ -13,7 +13,7 @@
 		19D80308255B10DF003DAF11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D80307255B10DF003DAF11 /* Preview Assets.xcassets */; };
 		19D80313255B10DF003DAF11 /* ComponentsSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D80312255B10DF003DAF11 /* ComponentsSwiftUITests.swift */; };
 		19D8031E255B10DF003DAF11 /* ComponentsSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8031D255B10DF003DAF11 /* ComponentsSwiftUIUITests.swift */; };
-		19D80330255B1330003DAF11 /* RegFirebaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8032F255B1330003DAF11 /* RegFirebaseView.swift */; };
+		19D80330255B1330003DAF11 /* SignUpEmailFirebaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8032F255B1330003DAF11 /* SignUpEmailFirebaseView.swift */; };
 		19D80338255B16C5003DAF11 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D80337255B16C5003DAF11 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +47,7 @@
 		19D80319255B10DF003DAF11 /* ComponentsSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D8031D255B10DF003DAF11 /* ComponentsSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsSwiftUIUITests.swift; sourceTree = "<group>"; };
 		19D8031F255B10DF003DAF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19D8032F255B1330003DAF11 /* RegFirebaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegFirebaseView.swift; sourceTree = "<group>"; };
+		19D8032F255B1330003DAF11 /* SignUpEmailFirebaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailFirebaseView.swift; sourceTree = "<group>"; };
 		19D80337255B16C5003DAF11 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,7 +139,7 @@
 		19D8032E255B130B003DAF11 /* RegFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				19D8032F255B1330003DAF11 /* RegFirebaseView.swift */,
+				19D8032F255B1330003DAF11 /* SignUpEmailFirebaseView.swift */,
 			);
 			path = RegFirebase;
 			sourceTree = "<group>";
@@ -274,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19D80303255B10DE003DAF11 /* ContentView.swift in Sources */,
-				19D80330255B1330003DAF11 /* RegFirebaseView.swift in Sources */,
+				19D80330255B1330003DAF11 /* SignUpEmailFirebaseView.swift in Sources */,
 				19D80301255B10DE003DAF11 /* ComponentsSwiftUIApp.swift in Sources */,
 				19D80338255B16C5003DAF11 /* Styles.swift in Sources */,
 			);
