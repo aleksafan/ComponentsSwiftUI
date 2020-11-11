@@ -16,7 +16,6 @@ struct SignUpEmailFirebaseView:View{
     var body: some View{
         VStack{
             Text("Registration with Firebase and e-mail")
-            
             VStack{
                 Form {
                     TextField("e-mail", text: self.$email)
@@ -37,13 +36,10 @@ struct SignUpEmailFirebaseView:View{
                 Button(action: self.SignUpEmail){
                     Text("Sign Up")
                 }
-                
-                
             }
         }
     }
     func SignUpEmail(){
-        
     }
 }
 
